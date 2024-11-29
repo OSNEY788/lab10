@@ -1,47 +1,42 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla de Datos</title>
-    <style>
-        table {
-            width: 50%;
-            border-collapse: collapse;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 8px;
-            text-align: left;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <title>Laboratorio 10</title>
 </head>
 <body>
-    <h2>Tabla de Datos</h2>
-    <table>
-        <tr>
-            <th>Nombre</th>
-            <th>Edad</th>
-            <th>Ciudad</th>
-        </tr>
-        <tr>
-            <td>Juan</td>
-            <td>25</td>
-            <td>Bogotá</td>
-        </tr>
-        <tr>
-            <td>María</td>
-            <td>30</td>
-            <td>Medellín</td>
-        </tr>
-        <tr>
-            <td>Carlos</td>
-            <td>28</td>
-            <td>Cali</td>
-        </tr>
-    </table>
+    <script>
+        //Declaracion De Variable
+        let nombre = "Osney";
+        let edad ="18";
+        let esEstudiante ="true"
+
+        //Imprimir En Consola
+        console.log ("<br> Nombre; ",nombre)
+        console.log ("<br> Edad; ",edad)
+        console.log ("<br> esEstudiante; ",esEstudiante)
+
+        //Imprimir En La Pagina Web
+document.write("Nombre: ",nombre);
+document.write("edad: ",edad);
+document.write("esEstudiante: ",esEstudiante);
+
+//practica
+let numero1=10
+let numero2=70
+let suma = numero1 + numero2;
+
+//publicar en consola
+console.log("suma =", suma);
+
+//publicar en pagina
+document.write("<br>suma = ", suma)
+    
+
+
+
+    </script>
+    
 </body>
 </html>
